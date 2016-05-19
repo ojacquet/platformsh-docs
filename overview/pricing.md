@@ -67,7 +67,7 @@ Development environments have less resources than production environments.
 ## Production - Standard / Medium / Large
 
 The live environment (master) of a production plan has more resources
-then the development environments of the project.
+than the development environments of the project.
 
 You can map domain names to your master environment. SSL support is always 
 included.
@@ -82,7 +82,7 @@ Production plans come in three flavors:
 All Platform.sh plans support multiple applications in a single cluster but
 they all share the global resource of the cluster.
 
-The resources of a **Standard plan are not sufficient to run more then one 
+The resources of a **Standard plan are not sufficient to run more than one 
 application** in the same cluster if there is also a MySQL database as a service. So useful multi-apps start at Medium.
 
 A Medium plan for example can support 3 Apps with a MySql Instance and a Redis 
